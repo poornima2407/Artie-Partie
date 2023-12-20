@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    
+    background-color: white;
+    overflow-x: hidden;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 70px;
+}
+#nav h1{
+    font-size: 40px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.U2btUWwlhQYWMTKDVKY-UQHaEK&pid=Api&P=0);
+    background-position: right;
+}
+#prt1{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+#box{
+    width: 100%;
+    height: calc(100vh - 80px);
+    padding: 20px 50px;
+    background-color: rgba(255, 192, 203, 0.532);
+    display: flex;
+    justify-content: space-between;
+}
+#part1{
+    width: 50%;
+    height: 80%;
+    padding: 24px;
+}
+#part1 h1{
+    font-size: 78px;
+    line-height: 75px;
+    color: rgba(0, 0, 0, 0.749);
+}
+#part1 span{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.U2btUWwlhQYWMTKDVKY-UQHaEK&pid=Api&P=0);
+    background-position: right;
+}
+#part1 p{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+#part1 button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1.5px solid purple;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: purple;
+    font-weight: 300;
+}
+#part2{
+    width: 40%;
+    height: 90%;
+    padding: 80px 115px;
+}
+#part2 img{
+    height: 99%;
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 56px;
+    background-color: lightblue;
+}
+#page2 h1{
+    font-size: 65px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #8A5835;
+}
